@@ -1,0 +1,3 @@
+defmodule PhoenixChannelsHorizontalScalabilityWeb.PageView do
+  use PhoenixChannelsHorizontalScalabilityWeb, :view
+end
