@@ -1,0 +1,10 @@
+version: '3'
+services:
+  haproxy:
+    image: haproxy:1.9
+    ports:
+      - 80:80
+      - 70:70
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    network_mode: "host"
